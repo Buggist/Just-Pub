@@ -18,4 +18,4 @@ then your package will be publish to pypi.org automatically,
 
 all configurations are configged with a meanless default value.
 
-you can complete your package information on anytime you want (or never 😈)!
+you can complete your package information anytime you want (or never 😈)!
