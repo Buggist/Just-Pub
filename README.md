@@ -9,7 +9,7 @@ pip install justpub
 ```
 
 ## Usage
-path/to/your_package>
+path/to/where_your_package_are>
 ```
 justpub <your-package-name> <your-pypi-api-token>
 ```
