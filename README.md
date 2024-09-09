@@ -18,4 +18,4 @@ then your package will be publish to pypi.org,
 
 all configurations are configged with default value.
 
-you can modify informations of your package detailedly on anytime you want(or never 😈)!
+you can modify informations of your package detailedly on anytime you want (or never 😈)!
