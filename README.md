@@ -1,5 +1,5 @@
 # Just-Pub
-Shut up and just publish!
+Shut up and just publish it!
 
 Publish your python module to pypi with merely one command. 
 
