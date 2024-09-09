@@ -16,6 +16,6 @@ justpub <your-package-name> <your-pypi-api-token>
 
 then your package will be publish to pypi.org automatically, 
 
-all configurations are configged with default value.
+all configurations are configged with a meanless default value.
 
 you can modify informations of your package detailedly on anytime you want (or never 😈)!
