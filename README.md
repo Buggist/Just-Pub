@@ -1,6 +1,10 @@
 # Just-Pub
 Shut up and just publish!
 
-working on it ...
+Publish your python module to pypi with merely one command. 
 
-soon it will be ready to install with pip.
+# Example
+path/to/your_package>
+```
+justpub <your-package-name> <your-pypi-api-token>
+```
