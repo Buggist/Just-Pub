@@ -1,5 +1,5 @@
 # Just-Pub
-*"Please package your project as the standard pypi structure..."*
+~~*"Please package your project as the standard pypi structure..."*~~
 
 *"Please fill out all the configurations as it required for your project..."*
 
