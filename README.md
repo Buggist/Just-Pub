@@ -1,6 +1,8 @@
 # Just-Pub
 *"Please package your project as the standard structure first..."*
+
 *"Please fill out all the configurations as it required for your project first..."*
+
 *"Please learn and perform these endless cliche before you publish your project ..."*
 
 **Shut up and just publish it!**
