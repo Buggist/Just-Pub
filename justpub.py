@@ -38,22 +38,34 @@ setuptools.setup(
 """
 
 
-def publish(package_name, api_token):
+def publish(package_name=None, api_token=None):
     global setup
+    if not package_name and not api_token:
+        parser = argparse.ArgumentParser(description="Automatic config and publish package to pypi.")
+        parser.add_argument('package_name', type=str, help='package_name')
+        parser.add_argument('api_token', type=str, help='api_token')
+        args = parser.parse_args()
+
+        package_name = args.package_name
+        api_token    = args.api_token
 
     file_name = "%s.py" % package_name
     
     # 1 - Building package structure that pypi requires.
     print("\nBuilding package structure ...(1/6)")
-    if os.path.exists(file_name):
-        if os.path.isfile(file_name):
-            os.makedirs(package_name)
+    if os.path.isdir(file_name):
+        pass
+    elif os.path.isfile(file_name):
+        os.makedirs(package_name)
+        try:
             with open("%s/__init__.py" % package_name, "w+", encoding="utf-8") as file:
                 file.writelines("from .%s import * \n" % package_name)
             shutil.copy("%s.py" % package_name, "%s/%s.py" % (package_name, package_name))
+        except Exception as e:
+            shutil.rmtree(package_name)
+            raise(e)
     else:
-        if not os.path.exists(package_name):
-            raise Exception("Module '%s' dose not exist!" % package_name)
+        raise Exception("Module '%s' dose not exist!" % package_name)
 
     # os.system("pause")
 
