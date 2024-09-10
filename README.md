@@ -5,7 +5,7 @@
 
 *"Please learn and perform these endless cliche before you publish your project ..."*
 
-**Shut up and just publish it!**
+**Shut up and just publish it !**
 
 ---
 
