@@ -22,7 +22,7 @@ path/to/where_your_package_are>
 justpub <your-package-name> <your-pypi-api-token>
 ```
 
-Then your package will be publish to pypi.org automatically, 
+Hit enter, then your package will be publish to pypi.org automatically, 
 
 all configurations are configged with a meanless default value.
 
