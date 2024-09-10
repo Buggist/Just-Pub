@@ -7,6 +7,8 @@
 
 **Shut up and just publish it!**
 
+---
+
 Publish your python module to pypi with merely one command. 
 
 ## Install
