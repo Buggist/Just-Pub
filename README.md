@@ -11,7 +11,7 @@
 
 Publish your python module to ***pypi*** with merely **one command**. 
 
-## Install
+## Installation
 ```
 pip install justpub
 ```
