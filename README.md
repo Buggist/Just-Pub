@@ -9,7 +9,7 @@
 
 ---
 
-Publish your python module to ***pypi*** with merely **one command**. 
+Publish your python module to ***pypi*** with merely **one command** as long as this module can run!
 
 ## Installation
 ```
